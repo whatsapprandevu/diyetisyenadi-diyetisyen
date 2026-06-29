@@ -318,7 +318,7 @@
       const appointmentTime = `${hourInput}:${minuteInput}`;
       
       // WhatsApp mesaj şablonu
-      const message = `Kolay Gelsin, randevu almak istiyorum.\n\n Ad Soyad:    ${firstName} ${lastName}\n İstediğim Gün:    ${day}\n İstediğim Saat:    ${appointmentTime} `;
+      const message = `Kolay Gelsin, randevu almak istiyorum.\n Ad Soyad:    ${firstName} ${lastName}\n İstediğim Gün:    ${day}\n İstediğim Saat:    ${appointmentTime} `;
       
       const whatsappUrl = `https://wa.me/${barberPhone}?text=${encodeURIComponent(message)}`;
       window.open(whatsappUrl, "_blank");
